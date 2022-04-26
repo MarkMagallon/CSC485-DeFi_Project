@@ -1,0 +1,58 @@
+EXAM
+
+25 question (Multiple choices) = 10% of exam grade
+26 questions (Multiple choices / FIll in the blank / short answers / T&F ) = 90% of exam grade
+5 points bonus Normalizaiton vids
+
+
+Chapter 3 Relational Model
+ Terms to know for 
+  Entity = table
+  Attribute = column
+  Relation 
+    - Know 8 rules
+    - Table vs relation: be able to identfiy wheteher an example is meets
+  Null value
+    - issue with null value 
+    - ok to have null value on column
+    - Primary key cant be null
+    - Foriegn can be null
+ Functional Dependency
+    - 
+    - Identify Dependies in sample data
+    - Functional dependencies can not be flipped
+ Determinant
+    - Single vs composite determinants in functional dependiesces
+ Candidate key
+ Composite key
+    - must have two values
+ Surrogate key
+    - Number that uniquely identify
+ Primary Key
+    - One primary per table / can be a single or combo key(can be composite)
+    - Makes maintenance easily / sql handles it
+    - Downside no way to hide from an end - user
+ Foreign Key
+    - 
+    
+    
+Chapter 5 Data model, all slides
+
+  Entity-relationship Model
+    - Be able to interpret ER diagram as well as create them based on entity Information
+      - Showing attribute for entity in rectangle
+  Cardinality
+    - Crows foot notation
+  Normalization
+    - why we normalize
+        - Data redundancy
+    - Functional dependencies: partial and transitive
+    - Forms of Normalization: 1NF, 2NF, 3NF
+  Second Normal Form
+    - take out partial
+  Transitive dependencies
+    - regular coloumn identifies another coloumn
+    - 
+  Third normal form
+    - Take out transitive
+  
